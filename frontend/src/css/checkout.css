@@ -1,0 +1,35 @@
+.checkout-container {
+  background: linear-gradient(
+    to right,
+    rgba(247, 187, 77, 0.4),
+    rgba(247, 188, 77, 0.808)
+  );
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-step {
+  text-align: center;
+}
+
+.checkout-step-done {
+  color: orangered;
+  border-radius: 2rem;
+}
+
+.checkout-link {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.checkout-link:hover {
+  color: rgb(245, 49, 219);
+}
+
+@media screen and (max-width: 511px) {
+  .checkout-link {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}

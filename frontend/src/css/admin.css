@@ -1,0 +1,62 @@
+.text-right {
+  text-align: right !important;
+}
+
+.btn-format {
+  border: 2px solid black;
+  font-size: 0.8rem;
+  transform: skew(-10deg);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background-color 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-format:hover {
+  animation-name: wiggle;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+}
+
+.btn-format:focus {
+  background-color: rgb(255, 191, 132);
+}
+
+@keyframes wiggle {
+  0% {
+    transform: skew(-20deg);
+  }
+  25% {
+    transform: skew(20deg);
+  }
+  50% {
+    transform: skew(-20deg);
+  }
+  75% {
+    transform: skew(20deg);
+  }
+  100% {
+    transform: skew(-20deg);
+  }
+}
+
+.edit-form {
+  border: 2px solid black;
+  padding: 1rem 2rem;
+}
+
+.search {
+  border-radius: 2rem;
+  background-color: white;
+  padding-right: 10px;
+}
+
+.search .form-control {
+  border: none;
+  border-radius: 2rem;
+  color: rgba(130, 135, 141, 0.678);
+  font-weight: 600;
+}

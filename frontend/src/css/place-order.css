@@ -1,0 +1,24 @@
+.place-order-detail-item {
+  background-color: transparent;
+}
+
+.place-order-detail-item p {
+  font-family: "Poppins", sans-serif;
+}
+
+.place-order-detail {
+  background-color: transparent;
+}
+
+.order-summary {
+  background: linear-gradient(
+    to top right,
+    rgba(255, 185, 54, 0.418),
+    rgba(255, 208, 0, 0.884)
+  );
+}
+
+.paypal-button.paypal-button-color-gold,
+.paypal-button-row.paypal-button-color-gold .menu-button {
+  background-color: orangered;
+}
